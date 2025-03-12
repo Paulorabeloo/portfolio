@@ -7,6 +7,7 @@ body {
     height: 100vh; /* 100% da altura da tela do navegador*/
     background-color: black;
     color: #F6F6F6;
+    box-sizing: border-box; /* inclui padding e border no tamanho total do elemento */
 }
 
 /* classe de destaque <strong> */
