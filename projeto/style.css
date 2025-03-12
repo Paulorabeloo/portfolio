@@ -15,7 +15,7 @@ body {
     color: #EF1515;
 }
 
-.apresentacao {
+.apresentacao { /* flexbox */
     display: flex;
     align-items: center;
 }
