@@ -20,7 +20,7 @@ body {
 }
 
 .apresentacao { /* flexbox */
-    margin: 10%;
+    margin: 10% 19%;
     display: flex;
     align-items: center;
     justify-content: space-between; /* alinhar elementos */
@@ -28,6 +28,9 @@ body {
 
 .apresentacao__conteudo {
     width: 612px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
